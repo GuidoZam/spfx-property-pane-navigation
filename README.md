@@ -34,22 +34,20 @@ This sample showcase how to handle the navigation between property pane pages us
 
 ```ts
 protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
-    return {
-			pages: [
-				{
-					header: { ... },
-					groups: [ ... ],
-				},
-				{
-					header: { ... },
-					groups: [ ... ],
-				},
-				{
-					header: { ... },
-					groups: [ ... ],
-				},
-			],
-		};
+	return {
+		pages: [{
+			header: { ... },
+			groups: [ ... ],
+		},
+  		{
+    			header: { ... },
+			groups: [ ... ],
+		},
+		{
+			header: { ... },
+			groups: [ ... ],
+		}],
+	};
   }
 ```
 
