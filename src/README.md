@@ -4,7 +4,7 @@
 
 This sample showcase how to handle the navigation between property pane pages.
 
-![Property pane navigation in action](assets/navigation_in_action.gif)
+![Property pane navigation in action](../assets/navigation_in_action.gif)
 
 ## Used SharePoint Framework Version
 
