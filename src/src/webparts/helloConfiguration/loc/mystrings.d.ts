@@ -5,8 +5,15 @@ declare interface IHelloConfigurationWebPartStrings {
 	BasicGroupName: string;
 	AdvancedGroupName: string;
 	DescriptionFieldLabel: string;
+	ConditionalFirstGroupName: string;
+	ConditionalSecondGroupName: string;
 	Controls: {
 		AdvancedToggle: {
+			Label: string;
+			OnText: string;
+			OffText: string;
+		};
+		ConditionalToggle: {
 			Label: string;
 			OnText: string;
 			OffText: string;

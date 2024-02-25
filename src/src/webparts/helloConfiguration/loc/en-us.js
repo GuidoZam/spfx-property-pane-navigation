@@ -6,11 +6,18 @@ define([], function() {
 		BasicGroupName: "Basic configuration",
 		AdvancedGroupName: "Advanced configuration",
 		DescriptionFieldLabel: "Description Field",
+		ConditionalFirstGroupName: "Conditional First Group",
+		ConditionalSecondGroupName: "Conditional Second Group",
 		Controls: {
 			AdvancedToggle: {
 				Label: "Show advanced settings",
 				OnText: "On",
 				OffText: "Off",
+			},
+			ConditionalToggle: {
+				Label: "Show conditional settings",
+				OnText: "First group",
+				OffText: "Second group",
 			},
 			Dropdown: {
 				Label: "Dropdown",
