@@ -133,10 +133,7 @@ export default class HelloConfigurationWebPart extends BaseClientSideWebPart<IHe
 										options: [
 											{ key: "1", text: strings.Controls.Dropdown.Options.One },
 											{ key: "2", text: strings.Controls.Dropdown.Options.Two },
-											{
-												key: "3",
-												text: strings.Controls.Dropdown.Options.Three,
-											},
+											{ key: "3", text: strings.Controls.Dropdown.Options.Three },
 										],
 									}),
 								],
@@ -149,10 +146,7 @@ export default class HelloConfigurationWebPart extends BaseClientSideWebPart<IHe
 										options: [
 											{ key: "1", text: strings.Controls.Dropdown.Options.One },
 											{ key: "2", text: strings.Controls.Dropdown.Options.Two },
-											{
-												key: "3",
-												text: strings.Controls.Dropdown.Options.Three,
-											},
+											{ key: "3", text: strings.Controls.Dropdown.Options.Three },
 										],
 									}),
 								],
