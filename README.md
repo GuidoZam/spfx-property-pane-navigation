@@ -32,6 +32,17 @@ This sample showcase how to handle the navigation between property pane pages.
 
 ---
 
+## Minimal path to awesome
+
+
+* Clone this repository (or [download this solution as a .ZIP file](https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-property-pane-navigation) then unzip it)
+* From your command line, change your current directory to the directory containing this sample (`react-property-pane-navigation`, located under `samples`)
+* in the command line run:
+  * `npm install`
+  * `gulp serve`
+
+> This sample can also be opened with [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Visit <https://aka.ms/spfx-devcontainer> for further instructions.
+
 
 ## Features
 
@@ -65,6 +76,18 @@ Each element in the `pages` array represents a property pane page, the SharePoin
 - [Make your SharePoint client-side web part configurable](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/basics/integrate-with-property-pane)
 - [Validate web part property values](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/validate-web-part-property-values)
 
+<!--
+RESERVED FOR REPO MAINTAINERS
+
+We'll add the video from the community call recording here
+
+## Video
+
+[![YouTube video title](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=XXXXX "YouTube video title")
+-->
+
 ## Disclaimer
 
 **THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://m365-visitor-stats.azurewebsites.net/sp-dev-fx-webparts/samples/react-property-pane-navigation" />
