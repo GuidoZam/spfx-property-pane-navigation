@@ -18,7 +18,6 @@ import { IHelloConfigurationProps } from './components/IHelloConfigurationProps'
 export interface IHelloConfigurationWebPartProps {
 	description: string;
 	showAdvancedSettings: boolean;
-	showFirstConditionalSettings: boolean;
 	dropdownSelection: string;
 	checkBoxSelection1: string;
 	checkBoxSelection2: string;
@@ -98,12 +97,7 @@ export default class HelloConfigurationWebPart extends BaseClientSideWebPart<IHe
 								}),
 								PropertyPaneCheckbox("checkBoxSelection3", {
 									text: strings.Controls.CheckBox3.Label,
-								}),
-								PropertyPaneToggle("showFirstConditionalSettings", {
-									label: strings.Controls.ConditionalToggle.Label,
-									onText: strings.Controls.ConditionalToggle.OnText,
-									offText: strings.Controls.ConditionalToggle.OffText,
-								}),
+								})
 							],
 						},
 					],
@@ -123,36 +117,7 @@ export default class HelloConfigurationWebPart extends BaseClientSideWebPart<IHe
 									value: 50,
 								}),
 							],
-						},
-						{
-							primaryGroup: {
-								groupName: strings.ConditionalFirstGroupName,
-								groupFields: [
-									PropertyPaneDropdown("dropdownSelection", {
-										label: strings.Controls.Dropdown.Label,
-										options: [
-											{ key: "1", text: strings.Controls.Dropdown.Options.One },
-											{ key: "2", text: strings.Controls.Dropdown.Options.Two },
-											{ key: "3", text: strings.Controls.Dropdown.Options.Three },
-										],
-									}),
-								],
-							},
-							secondaryGroup: {
-								groupName: strings.ConditionalSecondGroupName,
-								groupFields: [
-									PropertyPaneDropdown("dropdownSelection", {
-										label: strings.Controls.Dropdown.Label,
-										options: [
-											{ key: "1", text: strings.Controls.Dropdown.Options.One },
-											{ key: "2", text: strings.Controls.Dropdown.Options.Two },
-											{ key: "3", text: strings.Controls.Dropdown.Options.Three },
-										],
-									}),
-								],
-							},
-							showSecondaryGroup: this.properties.showFirstConditionalSettings === false,
-						},
+						}
 					],
 				},
 			],
